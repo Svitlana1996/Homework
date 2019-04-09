@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+html{
+    background-color: #3399cc;
+     
+    }
+.container {
+    width: 800px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+h1, p {
+   color:#e8ecf3;
+   font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+   font-size: 24px;
+   }
+
+.content {
+    display: inline-block;
+    width: 800px;
+    list-style-type: none;
+    border: 2px solid #fff;
+    padding: 0;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    font-size: 0;
+    color: whitesmoke;
+}
+.element {
+    display: inline-block;
+    border: 2px solid #fff;
+    line-height: 30px;
+    font-size: 14px;
+    padding:10px;
+    text-align: center;
+    
+}
+.element:nth-child(1), .element:nth-child(9) {
+    width: 50%;
+    }
+.element:nth-child(2), .element:nth-child(3) {
+    width: 25%;
+    margin: 0;
+        
+}
+.element:nth-child(4), .element:nth-child(5), .element:nth-child(6), .element:nth-child(7), .element:nth-child(8), .element:nth-child(10){
+    width: 25%;
+    }
+.element:last-of-type {
+    width: 100%;
+}
+.temperature {
+    display: block;
+    padding: 0;
+    line-height: 30px;
+    opacity: 0.65;
+}
+[class^="wi"] {
+display: inline-block;
+font-size: 20px;
+}
+.element:nth-child(1) {
+    background-color: #3399cc;
+}
+.element:nth-child(2) {
+    background-color: #33cccc;
+}
+.element:nth-child(3) {
+    background-color: #996699;
+}
+.element:nth-child(4) {
+    background-color: #c24747;
+}
+.element:nth-child(5) {
+    background-color: #e2674a;
+}
+.element:nth-child(6) {
+    background-color: #ffcc66;
+}
+.element:nth-child(7) {
+    background-color: #99cc99;
+}
+.element:nth-child(8) {
+    background-color: #669999;
+}
+.element:nth-child(9) {
+    background-color: #cc6699;
+}
+.element:nth-child(10) {
+    background-color: #339966;
+}
+.element:nth-child(11) {
+    background-color: #666699;
+}
+footer p {
+    font-size: 14px;
+}
+.content:hover {
+    opacity:0.8;
+}
+
+[class^="element"]:hover{
+    color: rgb(6, 6, 88);
+    background-color: rgb(247, 247, 247);
+}
